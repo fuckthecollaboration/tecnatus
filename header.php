@@ -55,7 +55,7 @@
 	        <ul class="nav navbar-nav navbar-right">
 	          <li><a href="<?php echo site_url(); ?>/">Início</a></li>
 	          <li><a href="<?php echo $url; ?>#noticias">Notícias</a></li>
-	          <li><a href="<?php echo site_url(); ?>/sobre-a-tecnatus/">Sobre a Tecnatus</a></li>
+	          <li><a href="<?php echo site_url(); ?>/sobre-a-tecnatus/">Sobre</a></li>
 	          <li><a href="<?php echo $url; ?>#servicos">Serviços</a></li>          
 	          <!-- <li><a href="#empresas">Empresas Incubadas</a></li> -->
 	          <li><a href="<?php echo $url; ?>#equipe">Equipe</a></li>

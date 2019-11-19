@@ -130,7 +130,7 @@ Navigation bar
 }
 .navbar-default .navbar-nav > li > a {
     color: #717f86;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -189,6 +189,13 @@ Navigation bar
 .mart20{
 	margin-top: 20px;
 }
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1250px;
+    }
+}
+
 /***********************************
 Banner
 ************************************/
