@@ -54,11 +54,24 @@
 	      	?>
 	        <ul class="nav navbar-nav navbar-right">
 	          <li><a href="<?php echo site_url(); ?>/">Início</a></li>
-	          <li><a href="<?php echo $url; ?>#noticias">Notícias</a></li>
-	          <li><a href="<?php echo site_url(); ?>/sobre-a-tecnatus/">Sobre</a></li>
+	          <!-- <li><a href="<?php echo site_url(); ?>/sobre-a-tecnatus/">Sobre</a></li> -->
+
+	          <li class="dropdown">
+                <a href="<?php echo site_url(); ?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sobre<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="<?php echo site_url(); ?>/sobre-a-tecnatus/">Sobre a Tecnatus</a></li>
+                  <li><a href="<?php echo $url; ?>#equipe">Equipe</a></li>
+                </ul>
+              </li>
+              <li><a href="<?php echo $url; ?>#noticias">Notícias</a></li>
 	          <li><a href="<?php echo $url; ?>#servicos">Serviços</a></li>          
-	          <!-- <li><a href="#empresas">Empresas Incubadas</a></li> -->
-	          <li><a href="<?php echo $url; ?>#equipe">Equipe</a></li>
+	          <li class="dropdown">
+                <a href="<?php echo site_url(); ?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Empresas<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="">Pré-Incubadas</a></li>
+                  <li><a href="">Assossiadas</a></li>
+                </ul>
+              </li>
 	          <li><a href="<?php echo site_url(); ?>/documentos">Documentos</a></li>
 	          <li><a href="<?php echo $url; ?>#footer">Contato</a></li>
 	          <li class="btn-trial"><a href="<?php echo site_url(); ?>/processos-seletivos"><i class="fa fa-bullhorn" aria-hidden="true"></i> Processo Seletivo Aberto</a></li>
