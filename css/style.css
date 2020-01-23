@@ -146,7 +146,6 @@ Navigation bar
 }
 
 
-
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
 {
 	color: #00aa78;
@@ -199,6 +198,78 @@ Navigation bar
         width: 1250px;
     }
 }
+
+
+/******** DROP-DOWN MENU ********/
+
+.dropdown-menu {
+  background-color: #242526; /*COR DO FUNDO DO SUBMENU*/
+  margin-top: 0;
+  border: 0;
+  border-radius: 0;
+/*  border-top: 2px solid #0f5178;
+  border-left: 2px solid #0f5178;
+  border-right: 2px solid #eee;
+  border-bottom: 2px solid #eee;*/
+  /*text-transform: uppercase;*/
+
+  font-weight: 1000;
+  padding: 0px;
+}
+
+ul.nav li.dropdown.open > a {
+  border-color: #132a3a;
+}
+
+.dropdown-menu > li > a {
+  color: #f7f7f7;
+  padding: 13px 40px;
+  border-bottom: 1px solid #fff; /*LINHA BORDA ENTRE OS MENUS*/
+
+  letter-spacing: 2px;
+  background-color: #132a3a;  
+}
+
+/*RETIRADO DE INOVA*/
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+
+.navbar-nav > li > ul.dropdown-menu > li {
+  /*padding: 5px 20px;*/
+  /*background: #eee;*/
+  margin: 0;
+  padding: 0;
+}
+
+/*.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  color: #f7f7f7;
+  background-color: #132a3a; 
+}*/
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+  color: #f7f7f7;
+  text-decoration: none;
+  background-color: #0d1c27;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+  background-color: #132a3a;
+}
+
+/*ul.nav li.dropdown.open > a {
+    color: #f7f7f7;
+}*/
 
 /***********************************
 Banner
