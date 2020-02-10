@@ -1142,3 +1142,57 @@ Responsive media queries
 .edital-aberto i {
     color: #fff;
 }
+
+
+/** ACCORDION */
+
+.accordion_container
+{
+  background: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.accordion_container:first-child
+{
+  margin-top: 30px;
+}
+.accordion_container:last-child
+{
+  margin-bottom: 30px;
+}
+
+.accordion
+{
+  cursor: pointer;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.accordion div
+{
+  overflow: hidden;
+}
+
+.accordion p
+{
+  padding-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #76777a;
+  line-height: 2;
+}
+
+.accordion_header{
+  color: #00aa78;
+  font-size: 18px;
+  font-weight: 900;
+}
