@@ -5,6 +5,7 @@
 
 <?php get_header(); ?>
 
+<section id="page-sobre">
 <div class="container container-post">
 	<h1 class="page-header">SOBRE A TECNATUS</h1>
 	
@@ -128,5 +129,5 @@ Conexão entre empreendedores incubados com potenciais parceiros, investidores, 
 
 	</div> <!-- Fim accordion main container -->
 </div>
-
+</section>
 <?php get_footer(); ?>

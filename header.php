@@ -58,8 +58,8 @@
 	          <li class="dropdown">
                 <a href="<?php echo site_url(); ?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sobre<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="<?php echo site_url(); ?>/sobre-a-tecnatus/">Sobre a Tecnatus</a></li>
-                  <li><a href="<?php echo $url; ?>#equipe">Equipe</a></li>
+                  <li><a id="submenu" href="<?php echo site_url(); ?>/sobre-a-tecnatus/">Sobre a Tecnatus</a></li>
+                  <li><a id="submenu" href="<?php echo $url; ?>#equipe">Equipe</a></li>
                 </ul>
               </li>
               <li><a href="<?php echo $url; ?>#noticias">Notícias</a></li>
@@ -67,8 +67,8 @@
 	          <li class="dropdown">
                 <a href="<?php echo site_url(); ?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Empresas<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="">Pré-Incubadas</a></li>
-                  <li><a href="">Assossiadas</a></li>
+                  <li><a id="submenu" href="">Pré-Incubadas</a></li>
+                  <li><a id="submenu" href="">Assossiadas</a></li>
                 </ul>
               </li>
 	          <li><a href="<?php echo site_url(); ?>/documentos">Documentos</a></li>
