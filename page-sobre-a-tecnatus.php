@@ -1,8 +1,5 @@
 <?php /* Template Name: Sobre */ ?>
 
-
-<!-- Alterar classes das divs para estilizar o accordion -->
-
 <?php get_header(); ?>
 
 <section id="page-sobre">
