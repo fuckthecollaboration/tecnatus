@@ -1,4 +1,4 @@
-<?php /* Template Name: Incubadas */ ?>
+<?php /* Template Name: Pre-Incubadas */ ?>
 
 
 <?php get_header(); ?>

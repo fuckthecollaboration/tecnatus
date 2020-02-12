@@ -67,7 +67,7 @@
 	          <li class="dropdown">
                 <a href="<?php echo site_url(); ?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Empresas<b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a id="submenu" href="">Pré-Incubadas</a></li>
+                  <li><a id="submenu" href="<?php echo site_url(); ?>/empresas-pre-incubadas/">Pré-Incubadas</a></li>
                   <li><a id="submenu" href="">Assossiadas</a></li>
                 </ul>
               </li>
