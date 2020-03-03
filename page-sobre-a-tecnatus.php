@@ -103,23 +103,23 @@
 
 		<div class="accordion_container">
 		    <div class="accordion_header" data-toggle="collapse" data-target="#collapse11" aria-expanded="true" aria-controls="collapse11">
-			          Quais os benefícios?
+			    	Quais os benefícios?
 		    </div>
 		    <div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#accordionAbout">
 			    <p>Mentorias com empreendedores e executivos de mercado;
-Apoio em projetos de captação de recursos nacionais e internacionais;
-Conexão com empresas do ecossistema empreendedor universitário;
-Apresentação para investidores;
-Networking e troca de conhecimento;
-Apoio em ações de visibilidade na imprensa local e nacional;
-Participação em eventos;
-Ambientes para realização de eventos de diferentes portes, como auditórios e salas;
-Salas de reunião e videoconferência;
-Capacitações, oficinas e mentorias;
-Disseminação e sensibilização da cultura de empreendedorismo e inovação;
-Desenvolvimento dos empreendedores enquanto líderes e aspectos de relacionamento interpessoal;
-Conexão entre empreendedores incubados com potenciais parceiros, investidores, sócios e mentores;
-</p>
+					Apoio em projetos de captação de recursos nacionais e internacionais;
+					Conexão com empresas do ecossistema empreendedor universitário;
+					Apresentação para investidores;
+					Networking e troca de conhecimento;
+					Apoio em ações de visibilidade na imprensa local e nacional;
+					Participação em eventos;
+					Ambientes para realização de eventos de diferentes portes, como auditórios e salas;
+					Salas de reunião e videoconferência;
+					Capacitações, oficinas e mentorias;
+					Disseminação e sensibilização da cultura de empreendedorismo e inovação;
+					Desenvolvimento dos empreendedores enquanto líderes e aspectos de relacionamento interpessoal;
+					Conexão entre empreendedores incubados com potenciais parceiros, investidores, sócios e mentores;
+				</p>
 		    </div>
 		</div>
 
