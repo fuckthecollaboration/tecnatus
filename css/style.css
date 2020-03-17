@@ -40,7 +40,7 @@
     font-weight: 700;
     color: #4B4B4C;
 }
-a{
+a, i{
     color: #00aa78;
 }
 a:hover, a:focus{
@@ -51,6 +51,9 @@ a:hover, a:focus{
 h1 {
     text-transform: uppercase;
     text-align: center !important;
+}
+hr {
+  border-top: 1px solid #d2d2d2;
 }
 
 .more {
@@ -124,6 +127,9 @@ article {
   background-color: #f1f1f1;
 }
 
+#empresas {
+  background-color: #f1f1f1;
+}
 
 /***********************************
 Navigation bar
@@ -743,7 +749,7 @@ Testimonial
 /***********************************
 Course
 ************************************/
-#empresas, #equipe {
+#equipe {
     background-color: rgb(247, 247, 247);
 }
 [class*=" imghvr-"] figcaption, [class^="imghvr-"] figcaption {
@@ -1191,6 +1197,7 @@ ACCORDION
 }
 
 
+
 /********************************************
 EMPRESAS
 *********************************************/
@@ -1291,4 +1298,51 @@ EMPRESAS
   color: #112363;
   font-size: 15px;
   margin-bottom: 10px;
+}
+
+/********************************************
+EMPRESAS - Página Individual
+*********************************************/
+
+.empresa-page
+{
+  max-width: 1220px;
+  background: #FFF;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  max-width: 1220px;
+  margin-top: 30px;
+  padding: 20px 30px;
+  margin-bottom: 10px;
+  /*padding: 60px 0 30px 0;*/
+}
+
+.header-empresa h2{
+  color: #00aa78; /*#02C28A*/
+  font-size: 35px;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.header-empresa h3{
+  color:#717f86;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+.empresaBody, .empresaHeader {
+  max-width: 1160px;
+
+}
+
+.empresaBody{
+  margin-top: 25px;
+}
+
+.empresaDescription{
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
