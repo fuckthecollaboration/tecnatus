@@ -121,6 +121,7 @@ article {
 
 #page-sobre {
   background-color: #f1f1f1;
+  background-image:url('../img/courses_background.jpg');
 }
 
 #page-empresas {
@@ -1142,8 +1143,20 @@ Responsive media queries
 
 
 /********************************************
-ACCORDION
+PAGINA SOBRE - FEATURE E ACCORDION
 *********************************************/
+
+.feature_background
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
 .accordion_container
 {
@@ -1187,7 +1200,8 @@ ACCORDION
   font-size: 16px;
   font-weight: 400;
   color: #76777a;
-  line-height: 2;
+  text-align: justify;
+  /*line-height: 1.6;*/
 }
 
 .accordion_header{
